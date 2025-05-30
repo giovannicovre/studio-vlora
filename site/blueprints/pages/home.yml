@@ -35,7 +35,7 @@ options:
     editor: false
   list:
     admin: true
-    editor: false
+    editor: true
   move:
     admin: true
     editor: false
