@@ -1,0 +1,45 @@
+title: Site
+
+tabs:
+  pages:
+    sections:
+      sections:
+        headline: Pages
+        type: pages
+        templates:
+          - home
+
+  bio:
+    fields:
+      bio:
+        type: writer
+        nodes: false
+        marks:
+          - link
+          - email
+        required: true
+        maxlength: 500
+        
+  seo:
+    label: SEO
+    fields:
+      site_title:
+        label: Site title
+        type: text
+        help: approx. 60 characters
+
+      site_description:
+        label: Site description
+        type: textarea
+        buttons: false
+        help: approx. 240 characters
+
+      keywords:
+        label: Keywords
+        type: tags
+        help: between 10 and 20 keywords
+
+options:
+  changeTitle:
+    admin: true
+    editor: false

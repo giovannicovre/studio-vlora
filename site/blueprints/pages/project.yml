@@ -1,0 +1,90 @@
+title: Project
+
+preset: page
+
+fields:
+  codice:
+    type: text
+    maxlength: 5
+    required: true
+
+  year:
+    type: text
+    maxlength: 4
+    required: true
+
+  place:
+    type: text
+    required: true
+
+  visuals_desktop:
+    type: structure
+    label: Visuals
+    required: true
+    fields:
+      thumb:
+        type: files
+        max: 1
+        label: "Thumbnail"
+        width: 1/2
+        layout: cards
+        required: true
+        query: page.images
+        help: "Aspect ratio: 16/9 | Size: 480x270px | File type: png, jpg, webp"
+      full:
+        type: files
+        max: 1
+        label: "Full"
+        width: 1/2
+        layout: cards
+        required: true
+        help: "Aspect ratio: 16/9 | Size: 1920x1080px | File type: png, jpg, webp, mp4"
+
+sidebar:
+  gallery:
+    type: files
+    label: "All files"
+
+options:
+  access:
+    admin: true
+    editor: true
+  changeSlug:
+    admin: true
+    editor: true
+  changeStatus:
+    admin: true
+    editor: true
+  changeTemplate:
+    admin: true
+    editor: false
+  changeTitle:
+    admin: true
+    editor: true
+  create:
+    admin: true
+    editor: true
+  delete:
+    ademin: true
+    editor: true
+  duplicate:
+    admin: true
+    editor: true
+  list:
+    admin: true
+    editor: true
+  move:
+    admin: true
+    editor: false
+  preview:
+    admin: true
+    editor: true
+  read:
+    admin: true
+    editor: true
+  sort:
+    admin: true
+    editor: true
+  update:
+    admin: true
+    editor: true

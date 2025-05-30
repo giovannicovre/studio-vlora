@@ -1,0 +1,49 @@
+Title: Titolo progetto 14
+
+----
+
+Codice: SV014
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://RFsfQS7iAY2cvgEh
+  full:
+    - file://RFsfQS7iAY2cvgEh
+
+----
+
+Code: SV014
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 1aO409veSRtKbSMC

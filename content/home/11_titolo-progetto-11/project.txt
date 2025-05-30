@@ -1,0 +1,49 @@
+Title: Titolo progetto 11
+
+----
+
+Codice: SV011
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://ihp6U1lt9fJraXAU
+  full:
+    - file://ihp6U1lt9fJraXAU
+
+----
+
+Code: SV011
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 7KyDSCw99u1TnwD4

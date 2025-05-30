@@ -1,0 +1,49 @@
+Title: Titolo progetto 17
+
+----
+
+Codice: SV017
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://aId1BjL14dd61E30
+  full:
+    - file://aId1BjL14dd61E30
+
+----
+
+Code: SV017
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 1aO409veSRtKbSMC

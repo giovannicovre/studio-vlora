@@ -1,0 +1,49 @@
+Title: Titolo progetto 23
+
+----
+
+Codice: SV023
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://9adjbdszrF9H8pJg
+  full:
+    - file://9adjbdszrF9H8pJg
+
+----
+
+Code: SV019
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: YAtuXhHGuYNQJ9Uv

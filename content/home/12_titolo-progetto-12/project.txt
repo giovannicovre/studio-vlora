@@ -1,0 +1,49 @@
+Title: Titolo progetto 12
+
+----
+
+Codice: SV012
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://MG9I5BL3cyC0Zuz9
+  full:
+    - file://MG9I5BL3cyC0Zuz9
+
+----
+
+Code: SV012
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 1aO409veSRtKbSMC

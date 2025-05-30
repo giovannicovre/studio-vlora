@@ -1,0 +1,53 @@
+title: Home
+
+columns:
+  projects:
+    width: 1/1
+    sections:
+      projects:
+        type: pages
+        template: project
+
+options:
+  access:
+    admin: true
+    editor: true
+  changeSlug:
+    admin: true
+    editor: false
+  changeStatus:
+    admin: true
+    editor: false
+  changeTemplate:
+    admin: true
+    editor: false
+  changeTitle:
+    admin: true
+    editor: false
+  create:
+    admin: true
+    editor: false
+  delete:
+    ademin: true
+    editor: false
+  duplicate:
+    admin: true
+    editor: false
+  list:
+    admin: true
+    editor: false
+  move:
+    admin: true
+    editor: false
+  preview:
+    admin: true
+    editor: true
+  read:
+    admin: true
+    editor: true
+  sort:
+    admin: true
+    editor: false
+  update:
+    admin: true
+    editor: true

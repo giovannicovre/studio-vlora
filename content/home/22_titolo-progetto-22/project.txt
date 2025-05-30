@@ -1,0 +1,49 @@
+Title: Titolo progetto 22
+
+----
+
+Codice: SV022
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://zMuYy7ghWYQB8M06
+  full:
+    - file://zMuYy7ghWYQB8M06
+
+----
+
+Code: SV019
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: ITbKvaajs16Eab99

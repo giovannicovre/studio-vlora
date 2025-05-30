@@ -1,0 +1,27 @@
+Title: Video Test
+
+----
+
+Codice: VID01
+
+----
+
+Year: 2025
+
+----
+
+Place: Miano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://5hsodX6BuILOZK6C
+  full:
+    - file://zJQiQrJmZqSfDRlZ
+
+----
+
+Uuid: I6FhNSmPQYMAdQHX

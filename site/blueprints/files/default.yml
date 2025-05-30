@@ -1,0 +1,5 @@
+title: Image
+
+fields:
+  alt:
+    type: text

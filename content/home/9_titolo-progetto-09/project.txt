@@ -1,0 +1,49 @@
+Title: Titolo progetto 09
+
+----
+
+Codice: SV009
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://N04CbkVM9ZAPU8Xk
+  full:
+    - file://N04CbkVM9ZAPU8Xk
+
+----
+
+Code: SV009
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 1aO409veSRtKbSMC

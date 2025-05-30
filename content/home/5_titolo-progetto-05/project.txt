@@ -1,0 +1,49 @@
+Title: Titolo progetto 05
+
+----
+
+Codice: SV005
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://ygjORksOjamtkgoG
+  full:
+    - file://ygjORksOjamtkgoG
+
+----
+
+Code: SV005
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 7KyDSCw99u1TnwD4

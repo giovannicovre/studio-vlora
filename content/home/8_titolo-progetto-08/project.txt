@@ -1,0 +1,49 @@
+Title: Titolo progetto 08
+
+----
+
+Codice: SV008
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://YlAEnoWCNZEru4Kp
+  full:
+    - file://YlAEnoWCNZEru4Kp
+
+----
+
+Code: SV008
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: 1aO409veSRtKbSMC
