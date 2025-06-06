@@ -20,7 +20,7 @@
 <body>
     <main>
         <div class="container">
-            <div class="lettering"></div>
+            <!-- <div class="lettering"></div> -->
 
             <div class="logo-container delay">
                 <div class="logo">
@@ -39,9 +39,9 @@
                 </div>
             </div>
 
-            <?php $counter = 0 ?>
+            <?php $visualCounter = 0; ?>
             <?php foreach($page->children()->listed() as $project): ?>
-                <div class="project-container delay" onclick="openModal(<?= $counter ?>)">
+                <div class="project-container delay" onclick="openModal(<?= $visualCounter ?>)">
                     <div class="project-code type-s">
                         <?= $project->title() ?>
                     </div>
@@ -51,36 +51,36 @@
                                 <div class="project-visual-image glitch-img" style="background-image: url('<?= $item->thumb()->toFile()->url() ?>')"></div>
                             <?php endif ?>
                         </div>
-                        <?php $counter = $counter + 1 ?>
+                        <?php $visualCounter++ ?>
                     <?php endforeach ?>
-                </div>    
+
+                    
+                </div>
             <?php endforeach ?>
 
-            <?php $counter = 0 ?>
+            <?php $visualCounter = 0; ?>
             <?php foreach($page->children()->listed() as $project): ?>
-                <div class="modal" onclick="closeModal(<?= $counter ?>)">
-                    <div class="modal-code type-m">
+                <?php foreach ($project->visuals_desktop()->toStructure() as $item): ?>
+                    <div class="modal" onclick="closeModal(<?= $visualCounter ?>)">
+                        <div class="modal-code type-m">
                             <?= $project->codice() ?>
                         </div>
-                    <?php foreach ($project->visuals_desktop()->toStructure() as $item): ?>
                         <div class="modal-info type-m">
                             <?= $item->titolo() ?>, <?= $item->year() ?>, <?= $item->place() ?>
                         </div>
-                        
-                    
                         <?php if ($item->full()->toFile()->type() === 'image'): ?>
                             <img src="<?= $item->full()->toFile()->url() ?>" alt="<?= $item->full()->toFile()->alt() ?>" loading="lazy" class="modal-content" >
                         <?php endif ?>
                         <?php if ($item->full()->toFile()->type() === 'video'): ?>
-                        <video autoplay loop muted playsinline class="modal-content" onclick="closeModal(<?= $counter ?>)">
-                            <source src="<?= $item->full()->toFile()->url() ?>" type="video/mp4" />
-                        </video>
+                            <video autoplay loop muted playsinline class="modal-content" onclick="closeModal(<?= $visualCounter ?>)">
+                                <source src="<?= $item->full()->toFile()->url() ?>" type="video/mp4" />
+                            </video>
                         <?php endif ?>
-                    <?php endforeach ?>
-                </div>
-                <div class="modal-background" onclick="closeModal(<?= $counter ?>)"></div>
-                <?php $counter = $counter + 1 ?>
-            <?php endforeach ?>            
+                    </div>
+                    <div class="modal-background" onclick="closeModal(<?= $visualCounter ?>)"></div>
+                    <?php $visualCounter++ ?>
+                <?php endforeach ?>
+            <?php endforeach ?>         
         </div>
     </main>
 </body>
@@ -142,13 +142,53 @@
   });
 </script>
 
-<script>
+<!-- <script>
     document.addEventListener("DOMContentLoaded", () => {
         var lettering = document.querySelector(".lettering");
         setTimeout(() => {
             lettering.style.opacity = 0;
         }, 100); // small delay to allow DOM paint before fading
     });
+</script> -->
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const containers = document.querySelectorAll(".project-container");
+
+containers.forEach(container => {
+  const visuals = container.querySelectorAll(".project-visual");
+  if (visuals.length <= 1) return;
+
+  let currentIndex = Math.floor(Math.random() * visuals.length);
+  visuals.forEach((v, i) => {
+    v.style.display = i === currentIndex ? "block" : "none";
+  });
+
+  // ✅ Store index on the container
+  container.dataset.currentIndex = currentIndex;
+
+  const rotateVisual = () => {
+    let nextIndex;
+    do {
+      nextIndex = Math.floor(Math.random() * visuals.length);
+    } while (nextIndex === currentIndex);
+
+    visuals[currentIndex].style.display = "none";
+    visuals[nextIndex].style.display = "block";
+    currentIndex = nextIndex;
+
+    // ✅ Update the data attribute
+    container.dataset.currentIndex = currentIndex;
+
+    const nextInterval = Math.floor(Math.random() * 4000) + 2000;
+    setTimeout(rotateVisual, nextInterval);
+  };
+
+  const initialInterval = Math.floor(Math.random() * 4000) + 2000;
+  setTimeout(rotateVisual, initialInterval);
+});
+
+});
 </script>
 
 <!-- jQuery -->
