@@ -1,4 +1,4 @@
-Title: SV009
+Title: SV018
 
 ----
 
@@ -6,16 +6,16 @@ Visuals-desktop:
 
 - 
   thumb:
-    - file://N04CbkVM9ZAPU8Xk
+    - file://D9HgSUNVw0iEgk2B
   full:
-    - file://N04CbkVM9ZAPU8Xk
+    - file://D9HgSUNVw0iEgk2B
   titolo: Titolo
   year: "2025"
   place: Milano
 
 ----
 
-Codice: SV009
+Codice: SV018
 
 ----
 
@@ -27,7 +27,7 @@ Place: Milano
 
 ----
 
-Code: SV009
+Code: SV018
 
 ----
 

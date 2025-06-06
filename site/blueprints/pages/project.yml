@@ -3,25 +3,11 @@ title: Project
 preset: page
 
 fields:
-  codice:
-    type: text
-    maxlength: 5
-    required: true
-
-  year:
-    type: text
-    maxlength: 4
-    required: true
-
-  place:
-    type: text
-    required: true
-
   visuals_desktop:
     type: structure
     label: Visuals
     required: true
-    max: 1
+    # max: 1
     fields:
       thumb:
         type: files
@@ -40,6 +26,18 @@ fields:
         layout: cards
         required: true
         help: "Aspect ratio: 16/9 | Size: 1920x1080px | File type: png, jpg, webp, mp4"
+      titolo:
+        type: text
+        required: true
+        label: "Title"
+      year:
+        type: text
+        maxlength: 4
+        required: true
+      place:
+        type: text
+        required: true
+      
 
 sidebar:
   gallery:

@@ -1,4 +1,4 @@
-Title: SV009
+Title: SV010
 
 ----
 
@@ -6,16 +6,16 @@ Visuals-desktop:
 
 - 
   thumb:
-    - file://N04CbkVM9ZAPU8Xk
+    - file://OyNDC7vgPx13Ucwr
   full:
-    - file://N04CbkVM9ZAPU8Xk
+    - file://OyNDC7vgPx13Ucwr
   titolo: Titolo
   year: "2025"
   place: Milano
 
 ----
 
-Codice: SV009
+Codice: SV010
 
 ----
 
@@ -27,7 +27,7 @@ Place: Milano
 
 ----
 
-Code: SV009
+Code: SV010
 
 ----
 
@@ -49,4 +49,4 @@ Visualmobile:
 
 ----
 
-Uuid: 1aO409veSRtKbSMC
+Uuid: 7KyDSCw99u1TnwD4

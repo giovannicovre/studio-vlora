@@ -43,7 +43,7 @@
             <?php foreach($page->children()->listed() as $project): ?>
                 <div class="project-container delay" onclick="openModal(<?= $counter ?>)">
                     <div class="project-code type-s">
-                        <?= $project->codice() ?>
+                        <?= $project->title() ?>
                     </div>
                     <?php foreach ($project->visuals_desktop()->toStructure() as $item): ?>
                         <div class="project-visual">
@@ -59,13 +59,15 @@
             <?php $counter = 0 ?>
             <?php foreach($page->children()->listed() as $project): ?>
                 <div class="modal" onclick="closeModal(<?= $counter ?>)">
-                    <div class="modal-info type-m">
-                        <?= $project->title() ?>, <?= $project->year() ?>, <?= $project->place() ?>
-                    </div>
                     <div class="modal-code type-m">
-                        <?= $project->codice() ?>
-                    </div>
+                            <?= $project->codice() ?>
+                        </div>
                     <?php foreach ($project->visuals_desktop()->toStructure() as $item): ?>
+                        <div class="modal-info type-m">
+                            <?= $item->titolo() ?>, <?= $item->year() ?>, <?= $item->place() ?>
+                        </div>
+                        
+                    
                         <?php if ($item->full()->toFile()->type() === 'image'): ?>
                             <img src="<?= $item->full()->toFile()->url() ?>" alt="<?= $item->full()->toFile()->alt() ?>" loading="lazy" class="modal-content" >
                         <?php endif ?>
