@@ -1,0 +1,68 @@
+Title: SV024
+
+----
+
+Visuals-desktop:
+
+- 
+  thumb:
+    - file://p7Yb6KMrhQzKt9N4
+  full:
+    - file://p7Yb6KMrhQzKt9N4
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+- 
+  thumb:
+    - file://VpoNG8apbv6Yrtbw
+  full:
+    - file://VpoNG8apbv6Yrtbw
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+- 
+  thumb:
+    - file://zYRy5XLnzQYSceib
+  full:
+    - file://zYRy5XLnzQYSceib
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+
+----
+
+Codice: SV012
+
+----
+
+Year: 2025
+
+----
+
+Place: Milano
+
+----
+
+Code: SV012
+
+----
+
+Visualsdesktop:
+
+- 
+  thumbdesktop:
+    - file://3H58fllLSOXBmO07
+  fulldesktop:
+    - file://3H58fllLSOXBmO07
+
+----
+
+Description: 
+
+----
+
+Visualmobile: 
+
+----
+
+Uuid: DdP8hQhahF4fbcK3

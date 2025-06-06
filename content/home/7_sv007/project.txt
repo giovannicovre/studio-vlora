@@ -12,6 +12,22 @@ Visuals-desktop:
   titolo: Titolo
   year: "2025"
   place: Milano
+- 
+  thumb:
+    - file://pvi44onycMWnpcEh
+  full:
+    - file://pvi44onycMWnpcEh
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+- 
+  thumb:
+    - file://8Gx7Dy7FUPIBfcnx
+  full:
+    - file://8Gx7Dy7FUPIBfcnx
+  titolo: Titolo
+  year: "2025"
+  place: Milano
 
 ----
 

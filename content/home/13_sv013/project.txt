@@ -1,4 +1,4 @@
-Title: Sv013
+Title: SV013
 
 ----
 
@@ -9,6 +9,22 @@ Visuals-desktop:
     - file://apPqPDJud73DvNeD
   full:
     - file://apPqPDJud73DvNeD
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+- 
+  thumb:
+    - file://lA77g4FjY3ssbqAy
+  full:
+    - file://lA77g4FjY3ssbqAy
+  titolo: Titolo
+  year: "2025"
+  place: Milano
+- 
+  thumb:
+    - file://QgSChyL62QQYnK2T
+  full:
+    - file://QgSChyL62QQYnK2T
   titolo: Titolo
   year: "2025"
   place: Milano

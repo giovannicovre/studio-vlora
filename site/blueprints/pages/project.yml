@@ -7,7 +7,6 @@ fields:
     type: structure
     label: Visuals
     required: true
-    # max: 1
     fields:
       thumb:
         type: files
@@ -50,25 +49,25 @@ options:
     editor: true
   changeSlug:
     admin: true
-    editor: true
+    editor: false
   changeStatus:
     admin: true
-    editor: true
+    editor: false
   changeTemplate:
     admin: true
     editor: false
   changeTitle:
     admin: true
-    editor: true
+    editor: false
   create:
     admin: true
-    editor: true
+    editor: false
   delete:
     ademin: true
-    editor: true
+    editor: false
   duplicate:
     admin: true
-    editor: true
+    editor: false
   list:
     admin: true
     editor: true
@@ -83,7 +82,7 @@ options:
     editor: true
   sort:
     admin: true
-    editor: true
+    editor: false
   update:
     admin: true
     editor: true

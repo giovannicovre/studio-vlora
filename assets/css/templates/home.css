@@ -386,6 +386,11 @@ main {
 
     }
 
+    .project-container:nth-child(26),
+    .project-container:nth-child(27) {
+        display: none;
+    }
+
 }
 
 /* -------------------- DESKTOP - 1366px -------------------- */
